@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableLegacyLibrary", "PortableLegacyLibrary\PortableLegacyLibrary.csproj", "{00A7D463-CF8D-42F5-A165-7826CA5EE546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamWebAPI.ClientSdk", "SteamWebAPI.ClientSdk\SteamWebAPI.ClientSdk.csproj", "{46EAD0D3-0688-4D2E-8492-61D94E139253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamCLI", "SteamCLI\SteamCLI.csproj", "{5D46EEDC-BA5F-4151-AF14-8D5808B6CAB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A7D463-CF8D-42F5-A165-7826CA5EE546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A7D463-CF8D-42F5-A165-7826CA5EE546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A7D463-CF8D-42F5-A165-7826CA5EE546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A7D463-CF8D-42F5-A165-7826CA5EE546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EAD0D3-0688-4D2E-8492-61D94E139253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EAD0D3-0688-4D2E-8492-61D94E139253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EAD0D3-0688-4D2E-8492-61D94E139253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EAD0D3-0688-4D2E-8492-61D94E139253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D46EEDC-BA5F-4151-AF14-8D5808B6CAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D46EEDC-BA5F-4151-AF14-8D5808B6CAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D46EEDC-BA5F-4151-AF14-8D5808B6CAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D46EEDC-BA5F-4151-AF14-8D5808B6CAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DECC5C9-36D3-4E55-A4B1-C15F40F43C1C}
+	EndGlobalSection
+EndGlobal
