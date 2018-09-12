@@ -14,7 +14,7 @@ namespace SteamWebAPI.ClientSdk
             {
                 try
                 {
-                    var converter = TypeDescriptor.GetConverter(typeof(T));
+                    TypeConverter converter = TypeDescriptor.GetConverter(typeof(T));
                     return (T)(converter.ConvertFromInvariantString(value));
                 }
                 catch (Exception)
