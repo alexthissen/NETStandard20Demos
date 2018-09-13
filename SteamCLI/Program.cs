@@ -13,7 +13,7 @@ namespace SteamCLI
 
         static async Task Main(string[] args)
         {
-            SteamWebApiProxy proxy = new SteamWebApiProxy(BaseURL, "YOURSTEAMKEYHERE");
+            SteamWebApiProxy proxy = new SteamWebApiProxy(BaseURL, "42B94E71FD038C4D887256CDE76CCFFF");
             int limit = 10;
             if (args.Length > 0)
             {
