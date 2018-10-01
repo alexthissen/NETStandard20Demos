@@ -16,7 +16,7 @@ namespace SteamCLICore
                 Assembly.GetEntryAssembly().ImageRuntimeVersion,
                 RuntimeInformation.OSDescription);
 
-            SteamWebApiProxy proxy = new SteamWebApiProxy(BaseURL, "YOURSTEAMKEYHERE");
+            SteamWebApiProxy proxy = new SteamWebApiProxy(BaseURL, "463522C8ECB65DADD51FE48392114E3A");
             int limit = 10;
             if (args.Length > 0)
             {
